@@ -1,5 +1,5 @@
 ---
-- hosts: CISCO_SWITCHES
+- hosts: switches
   gather_facts: no
   connection: local
 
