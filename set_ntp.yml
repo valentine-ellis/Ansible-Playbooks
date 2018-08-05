@@ -1,5 +1,5 @@
 ---
-- hosts: CISCO_SWITCHES
+- hosts: switch4
   gather_facts: no
   connection: local
 
@@ -29,5 +29,5 @@
     ios_config:
       provider: "{{ provider }}"
       lines:
-	- ntp server uk.pool.ntp.org
+        - ntp server uk.pool.ntp.org
         - ntp server time.apple.com
